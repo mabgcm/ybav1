@@ -10,7 +10,7 @@ const Forum = () => {
                 width='100%'
                 height='1300px'
                 scrolling='yes'
-                frameborder="0"></Iframe>
+                frameborder="0" />
         </div>
     )
 }
