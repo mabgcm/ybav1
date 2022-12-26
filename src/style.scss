@@ -58,7 +58,7 @@ $yellow: #f5bc04;
 	padding-right: 20px !important;
 	margin: 0 20px !important;
 	@include transition(0.5s);
-	background: $yellow  !important;
+	background: $yellow !important;
 	// @include clip-path(polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0));
 }
 
@@ -75,7 +75,7 @@ $yellow: #f5bc04;
 
 	&:focus,
 	&:hover {
-		background: $yellow  !important;
+		background: $yellow !important;
 		color: #fff !important;
 		padding-top: 12px !important;
 		padding-bottom: 15px !important;
@@ -115,7 +115,7 @@ $yellow: #f5bc04;
 
 .form-control:focus {
 	box-shadow: none !important;
-	border-color: $yellow  !important;
+	border-color: $yellow !important;
 }
 
 .btn-sign-in {
@@ -135,7 +135,7 @@ $yellow: #f5bc04;
 }
 
 .blog-form input:focus {
-	border-color: $yellow  !important;
+	border-color: $yellow !important;
 }
 
 .description-box {
@@ -159,7 +159,7 @@ $yellow: #f5bc04;
 }
 
 .react-tag-input:focus {
-	border-color: $yellow  !important;
+	border-color: $yellow !important;
 }
 
 .catg-dropdown {
@@ -442,6 +442,18 @@ $yellow: #f5bc04;
 	animation: swing1 1s ease;
 	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	background-color: #000;
+}
+
+.footer .mab {
+	color: #fff;
 }
 
 @-webkit-keyframes swing1 {
